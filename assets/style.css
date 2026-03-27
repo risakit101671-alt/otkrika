@@ -110,7 +110,7 @@ body::before {
     font-family: 'Marck Script', cursive;
     font-size: clamp(1.8rem, 7vw, 2.5rem);
     color: #55351F; /* Новый цвет надписи */
-    margin-bottom: 3rem;
+    margin-bottom: 0.5rem;
     text-shadow: 0 2px 4px rgba(255,255,200,0.6);
 }
 
