@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, viewport-fit=cover">
+    <title>Открытка для бабушки | С любовью</title>
+    <link href="https://fonts.googleapis.com/css2?family=Marck+Script&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+    <div class="deco-flower deco-1">🌸</div>
+    <div class="deco-flower deco-2">🌼</div>
+    <div class="deco-flower deco-3">💖</div>
+    <div class="deco-flower deco-4">🌷</div>
+    <div class="deco-flower deco-5">🍂✨</div>
+    <div class="deco-flower deco-6">💌</div>
+
+    <div class="card-container">
+        <!-- Конверт с изображением -->
+        <div class="envelope" id="envelopeBox">
+            <img src="assets/imgs/конверт.png" alt="Конверт" class="envelope-image">
+            <div class="envelope-overlay">
+                <div class="envelope-content">
+                    <div class="envelope-icon">✉️💕</div>
+                    <h1 class="envelope-title">Для любимой бабушки</h1>
+                    <div class="envelope-sub">от Полины</div>
+                    <button class="open-btn" id="openLetterBtn">
+                        <span>📩</span> Открыть конверт <span>✨</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Письмо с поздравлением -->
+        <div class="letter" id="letterBox">
+            <div class="greeting-title">🎂 С Днем рождения!🎉</div>
+            <div class="letter-content">
+                <p class="greeting-text">🌟 Дорогая моя бабушка! 🌟</p>
+                <p class="greeting-text">Хочу сказать тебе огромное спасибо за твою доброту, вкусную еду и компот, теплые воспоминания и безграничную заботу. Ты — настоящий лучик света в нашей семье!</p>
+                <p class="greeting-text">✨ Желаю тебе крепкого здоровья, чтобы каждый день начинался с радости, а сердце всегда согревали любовь и внимание близких. Пусть в доме царит уют, а на душе — тепло, даже если весна сейчас холодная. Пусть сбудутся самые тёплые мечты, а вокруг будет много цветов, солнца и приятных хлопот.</p>
+                <p class="greeting-text">💐 Ты — самая лучшая бабушка на свете! Оставайся такой же доброй и красивой, живи здорово и очень очень долго. Очень сильно тебя люблю</p>
+                <div class="signature">
+                    С любовью,<br>
+                    твоя внучка полина <span class="heart-deco">❤️</span>
+                </div>
+            </div>
+            <div style="text-align: center;">
+                <button class="back-home-btn" id="backToEnvelopeBtn">
+                    <span>🏠</span> Посмотреть конверт снова
+                </button>
+            </div>
+            <footer style="margin-top: 15px;">🌼</footer>
+        </div>
+    </div>
+
+    <script src="assets/scripts.js"></script>
+</body>
+</html>
